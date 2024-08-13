@@ -1,0 +1,150 @@
+* {
+    margin: 0 auto;
+    font-family: "Inter";
+    background-color: #303030;
+}
+
+
+#inf-menu{
+    display: flex;
+    background-color: #f9f9f9; /* Cor de fundo */
+    width: 100%;
+    height: 229px;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f991; /* Cor de fundo dos itens */
+    font-size: 1; /* Ajusta o tamanho da fonte com base no tamanho da fonte do elemento raiz */
+    line-height: 1.2; /* Define a altura da linha como uma proporção do tamanho da fonte */
+    color: #000000;
+    margin: 0;
+    padding-left: 10%;
+}
+
+#informational-item-1{
+    margin-left: -75px;
+    margin-top: 80px;
+    background-color: #f9f9f991
+}
+
+#informational-item-2{
+    margin-left: -50px;
+    margin-top: 80px;
+    background-color: #f9f9f991
+}
+
+#informational-item-3{
+    margin-left: -195px;
+    margin-top: 80px;
+    background-color: #f9f9f991
+}
+
+#hero-title{
+    font-weight: bolder;
+    font-size: 240%;
+    margin-bottom: 26px;
+    width: 100%;
+    background: #FFFFFF; 
+    color: #000000; 
+}
+
+#hero-description{
+    font-weight: 300;
+    font-size: 150%;
+    line-height: 1.2;
+    width: 100%;
+    background: #FFFFFF; 
+    margin: 0;
+    padding: 0;
+    color: #000000; 
+}
+
+#hero-section{
+    background-color: #FFFFFF; 
+    margin: 0; 
+    padding: 5% 10%; 
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-gap: 20px; /* espaçamento entre os itens no grid */
+    justify-content: center; /* centraliza o conteúdo no grid */
+    align-items: center; /* alinha itens verticalmente no centro */
+    margin-left: -10%;
+    padding-left: 17%;
+}
+
+#hero-title-desc{
+    background: #FFFFFF; 
+    width: 100%;
+}
+
+#img-hero-id{
+    width: 100%; 
+    height: auto; 
+    max-width: 1200px; 
+    max-height: 600px; 
+    display: block; /* remove espaços em branco abaixo da imagem */
+    border: 20px solid #FFFFFF; 
+    border-radius: 4px; 
+    box-shadow: 0 4px 8px rgb(255, 254, 254); /* gambiarra pra não exibir o background preto da matriz kkk */
+    background-color: #FFFFFF; /* fundo branco da imagem/gambiarra² */
+
+}
+
+
+#form-section {
+    text-align: center;
+    background-color: #303030;
+    padding: 4%;
+}
+
+#title-form {
+    font-size: 32px;
+    margin: 25px;
+    color: #FFFFFF;
+    background-color: #303030;
+}
+
+input {
+    width: 380px;
+    /* largura */
+    height: 50px;
+    /* altura */
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button {
+    background-color: #C07212;
+    height: 74px;
+    width: 286px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+button:hover {
+    background-color: #c04312;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #123f5398;
+    transition-duration: 0.5s;
+}
+
+#img-hero-id:hover{
+transform: translateX(-14px);
+box-shadow: 10px 25px 10px #ffffff69;
+transition-duration: 0.5s;}

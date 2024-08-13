@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Architectural DNC</title>
+    <style>
+        .superior-menu-class {
+            background-color: #303030;
+            padding: 5rem;
+            /* padding relativo com rem */
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            /* permite que o título e o parágrafo fiquem empilhados verticalmente */
+            align-items: center;
+            /* centraliza itens horizontalmente */
+            text-align: center;
+            padding-bottom: 10%;
+        }
+
+        #superior-menu-title {
+            font-weight: 600;
+            font-size: 3rem;
+            /* tamanho da fonte relativo */
+            line-height: 1.2;
+            /* altura da linha ajustada */
+            letter-spacing: -0.01em;
+            /* ajusta espaçamento das letras */
+            color: #FFFFFF;
+            margin: 0;
+            /* remove margens extras */
+            padding-right: 50%;
+        }
+
+        #superior-menu-p {
+            font-weight: 300;
+            font-size: 1.25rem;
+            /* tamanho da fonte relativo */
+            line-height: 1.2;
+            /* altura da linha ajustada */
+            color: #FFFFFF;
+            padding-right: 75%;
+            margin-top: -13rem;
+
+        }
+
+        
+
+            #form-section{
+            background-color: #303030;
+            
+            }
+
+            
+    </style>
+</head>
+
+<body>
+    <!--header section-->
+    <div id="superior-menu">
+        <h1 class="superior-menu-class" id="superior-menu-title">Tradição em projetos de arquitetura</h1>
+        <p class="superior-menu-class" id="superior-menu-p">Arquitetura residencial e comercial. </p>
+    </div>
+
+    <!--informational section-->
+    <section id="inf-menu">
+        <h1 style="font-size:40px;" class="item">850</h1><br>
+        <p id="informational-item-1">empreendimentos construídos</p>
+        <h1 style="font-size:40px;" class="item">40</h1>
+        <p id="informational-item-2">anos de mercado e experiência</p>
+        <h1 style="font-size:40px;" class="item">2,000,000</h1>
+        <p id="informational-item-3">m² em projetos construídos</p>
+    </section>
+
+    <!--hero section-->
+    <section id="hero-section">
+        <div id="hero-title-desc">
+            <h1 id="hero-title">Arquitetos com História e Experiência.</h1>
+            <p id="hero-description">Nós realizamos desde 2002 projetos e gerenciamento de obras.<br>
+                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br>
+                como principal proposta transformar em realidade os sonhos de<br>
+                seus clientes, criando projetos personalizados, unindo a tradição<br>
+                e a modernidade em nossos projetos.</p>
+        </div>
+        <div id="img-hero">
+            <img id="img-hero-id" onmouseenter ="imgB()" src="/imgs/section-3-image.svg" alt="errorImage3">
+        </div>
+    </section>
+
+    <!--form section-->
+    <section id="form-section">
+    <h1 id="title-form">Conheça mais sobre nossos serviços:</h1>
+    <form action="https://api.sheetmonkey.io/form/mxAtyESfxMA4zvHbkytQWY" method="POST">
+        <input type="text" placeholder="Nome" name="Name" required><br>
+        <input type="email" placeholder="Email" name="Email" required> <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+        <button type="submit">Fale Conosco</button>
+    </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
